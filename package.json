@@ -7,6 +7,11 @@
     "devstart": "nodemon ./bin/www",
     "test": "jest"
   },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["json", "html", 
+      "cobertura"]
+  },
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
